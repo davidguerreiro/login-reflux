@@ -18,7 +18,7 @@ class Login extends Component {
     onSubmit(e) {
         e.preventDefault();
 
-        if ( this.state.username == 'admin' && this.state.password == 'admin123' ) {
+        if ( this.state.username === 'admin' && this.state.password === 'admin123' ) {
             alert('Redireccionando...');
             this.setState({
                 isLogged: true,
